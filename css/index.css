@@ -1,0 +1,444 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+body p{
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navlist li{
+    position: relative;
+    font-size: 18px;
+}
+.navlist a{
+    color: black;
+}
+.navlist a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: rgb(23, 23, 128);
+    bottom: -3px;
+    left: 0%;
+    transition: ease .40s;
+}
+.navlist a:hover::after{
+    width: 100%;
+}
+.top-btn{
+    border-radius: 8px;
+    background: rgb(23, 23, 128);
+    display: inline-block;
+    color: white;
+    padding: 9px 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
+}
+.top-btn:hover{
+    transform: scale(1.1);
+    background: whitesmoke;
+    border: 2px solid;
+    color: rgb(23, 23, 128);
+}
+.logo{
+    width: 170px;
+    height: 80px;
+    cursor: default;
+    align-items: left;
+    justify-content: left;
+}
+
+section{
+    padding: 2% 10%;
+}
+.home{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 7rem;
+    align-items: center;
+}
+.banking-text h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(36, 31, 31);
+    font-family: 'Roboto Slab', serif;
+}
+.banking-text h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.banking-text p{
+    letter-spacing: 0.3px;
+    color: rgb(83, 81, 81);
+}
+.get-started, .consultation{
+    border-radius: 8px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    padding:12px 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 2%;
+}
+.get-started{
+    background: rgb(23, 23, 128);
+}
+.get-started:hover{
+    transform: scale(1.1);
+    background: whitesmoke;
+    border: 2px solid;
+    color: rgb(23, 23, 128);
+}
+.consultation{
+    color: black;
+    background: transparent;
+    border: solid 1.5px;
+}
+.consultation:hover{
+    background: rgb(23, 23, 128);
+    color: whitesmoke;
+}
+
+
+.banking-img img{
+    max-width: 100%;
+
+}
+.banking-img .transaction{
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    border-radius: 15px;
+    background: whitesmoke;
+    padding: 0% 5%;
+    margin-left: 60%;
+    margin-top: 0%;
+}
+
+
+.partners h2{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 38px;
+}
+.images{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.images img{
+    width: 100px;
+    height: 50px;
+}
+
+.features{
+    background: lightblue;
+}
+.features-content{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+.features-content p{
+    color: rgb(29, 17, 102);
+    font-family: 'Kanit', sans-serif;
+}
+.features h1{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 38px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.row{
+    border-radius: 12px;
+    padding: 0px 45px;
+    display: flex;
+}
+.s img{
+    height: 65px;
+    width: 65px;
+    background: none;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.card{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+.card-benefits a{
+    border-radius: 8px;
+    background: rgb(23, 23, 128);
+    color: white;
+    padding: 12px 20px;
+    margin-left: 5%;
+    justify-content: center;
+}
+.card-benefits:hover{
+    transform: scale(1.1);
+    background: whitesmoke;
+    /* border: 2px solid; */
+    color: rgb(23, 23, 128);
+}
+.card-benefits h2{
+    font-size: 23px;
+
+}
+.card-benefits li{
+    padding: 5px;
+    font-size: 18px;
+}
+.steps h2{
+    text-align: center;
+}
+.benefits-btn:hover{
+    transform: scale(1.1);
+    background: whitesmoke;
+    border: 2px solid;
+    color: rgb(23, 23, 128);
+}
+.benefits-btn{
+    justify-content: center;
+}
+.woman-card{
+    max-width: 100%;
+    width: max-content;
+    height: auto;
+    padding-top: 35px;
+}
+.list{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+.list li{
+    background: rgb(23, 23, 128);
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.transfer{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+.trf{
+    width: 150%;
+    height: 80%;
+    justify-content: left;
+    align-items: left;
+}
+.transfer-text{
+    padding-top: 20%;
+}
+.transfer-text p{
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.transfer-text h2{
+    font-size: 24px;
+    color: rgb(23, 23, 128);
+}
+.transfer-text span{
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+.testimonial{
+    grid-template-columns: 10% 80% 10%;
+    display: grid;
+    background: lightblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.test i{
+    color: gold;
+}
+.testimonial img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.test{
+    background: whitesmoke;
+    padding: 15px 15px 15px 15px;
+}
+.arrow-right i{
+    font-size: 32px;
+    color: blue;
+    margin-top: 80%;
+    padding-top: 40%;
+    cursor: pointer;
+}
+.arrow-left i{
+    font-size: 20px;
+    margin-top: 80%;
+    padding-top: 40%;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.testimonial h2{
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.faq{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 10%;
+}
+.manage,.secure,.access{
+    background: whitesmoke;
+    margin-bottom: 10px;
+}
+.manage,.secure,.device,.access p{
+ padding-top: 0%;   
+}
+.device{
+    background: whitesmoke;
+}
+
+.manage, .secure, .access, .manage i{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.manage, .secure, .access, .manage p{
+    margin-top: 0%;
+}
+
+.secure i{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.secure p{
+    margin-top: 0%;
+}
+.device i{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.device p{
+    margin-top: 0%;
+}
+/* .box p{
+    padding-left: 30%;
+} */
+.access i{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 10px;   
+}
+.access p{
+    margin-top: 0%;
+}
+.faqs .box{
+    padding-left: 16%;
+}
+.picc img{
+    height: 70%;
+    width: 110%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30%;
+}
+.newsletter{
+    /* background-color: rgb(23, 23, 128); */
+    width: 100%;
+    height: 50vh;
+    background-image: url(../lappyyy.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form button{
+    padding: 15px;
+    background: rgb(23, 23, 128);
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+form input{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: white;
+    font-size: 16px;
+}
+form h2, form p{
+    text-align: center;
+}
+
+.first img{
+    width: 100%;
+    height: 40%;
+}
+.first .app{
+    height: 55px;
+}
+.first p{
+    margin-top: 0%;
+}
+
+footer{
+    grid-template-columns: 25% 20% 20% 20%;
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+footer h2{
+    font-weight: 500;
+    color: rgb(23, 23, 128);
+    font-size: 24px;
+}
+
+
