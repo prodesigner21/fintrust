@@ -1,7 +1,6 @@
 # fintrust
 A fintech website
 
-Sure, here's an updated README text for a single-page website with those sections:
 
 
 This is a  website for a fintech company showcasing its features, partners, benefits, testimonials, and FAQs. The website is built using HTML and CSS.
